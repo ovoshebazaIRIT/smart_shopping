@@ -8,10 +8,17 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Локальные базы данных (если используются)
+# Профили браузера для парсеров
+chrome_profile_ozon/
+chrome_profile_ozon_v2/
+chrome_profile*/
+
+# Локальные базы данных
 *.db
 *.sqlite3
 
-# Настройки редактора
+# Настройки редактора и ОС
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db

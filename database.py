@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine, Column, Integer, String, Float
 from sqlalchemy.orm import declarative_base, sessionmaker
 
-SQLALCHEMY_DATABASE_URL = "postgresql://postgres:0021@shbd:5432/shopping_db"
+SQLALCHEMY_DATABASE_URL = "postgresql://postgres:12345@localhost:5432/shopping_db"
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 
