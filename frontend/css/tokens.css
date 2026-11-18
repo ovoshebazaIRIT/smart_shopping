@@ -1,0 +1,29 @@
+/*
+ * Дизайн-токены каркаса.
+ * Стили намеренно простые: белые блоки, тонкие рамки, один акцентный цвет.
+ * Когда появится макет, достаточно поменять значения переменных.
+ */
+:root {
+  --font-base: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif;
+
+  --color-bg: #f2f3f5;
+  --color-surface: #ffffff;
+  --color-text: #1c1e21;
+  --color-text-soft: #3d4148;
+  --color-muted: #6b7280;
+  --color-border: #dcdfe4;
+  --color-border-strong: #c4c9d1;
+
+  --color-accent: #1c5fd0;
+  --color-accent-hover: #17499f;
+  --color-accent-soft: #eaf1fd;
+
+  --color-best: #eff8f1;
+  --color-best-border: #b9ddc4;
+  --color-success: #1a7f3c;
+  --color-warning: #b45309;
+
+  --radius: 4px;
+  --container: 1200px;
+  --header-height: 60px;
+}

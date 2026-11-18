@@ -22,3 +22,14 @@ chrome_profile*/
 .idea/
 .DS_Store
 Thumbs.db
+
+# ОС и редакторы
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# временные папки и логи
+.dsh-office-*/
+.edge-cdp/
+*.log
